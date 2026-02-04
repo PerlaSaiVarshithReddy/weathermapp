@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>🌦️ Weather Forecast</h1>
+
+    <div class="search">
+        <input list="cities" id="city" placeholder="Select or type city name">
+
+        <datalist id="cities">
+            <!-- A -->
+
+        <option value="Agartala">
+        <option value="Agra">
+        <option value="Ahmedabad">
+        <option value="Aizawl">
+        <option value="Ajmer">
+        <option value="Akola">
+        <option value="Alappuzha">
+        <option value="Aligarh">
+        <option value="Allahabad (Prayagraj)">
+        <option value="Ambala">
+        <option value="Amravati">
+        <option value="Amritsar">
+        <option value="Anantapur">
+        <option value="Asansol">
+        <option value="Aurangabad">
+
+<!-- B -->
+<option value="Badlapur">
+<option value="Ballari">
+<option value="Bangalore (Bengaluru)">
+<option value="Bareilly">
+<option value="Bathinda">
+<option value="Belagavi">
+<option value="Berhampur">
+<option value="Bhagalpur">
+<option value="Bharatpur">
+<option value="Bhilai">
+<option value="Bhilwara">
+<option value="Bhiwandi">
+<option value="Bhopal">
+<option value="Bhubaneswar">
+<option value="Bidar">
+<option value="Bikaner">
+<option value="Bilaspur">
+<option value="Bokaro">
+<option value="Brahmapur">
+
+<!-- C -->
+<option value="Chandigarh">
+<option value="Chennai">
+<option value="Chhapra">
+<option value="Chhindwara">
+<option value="Chikkamagaluru">
+<option value="Chittoor">
+<option value="Coimbatore">
+<option value="Cuddalore">
+<option value="Cuttack">
+
+<!-- D -->
+<option value="Darbhanga">
+<option value="Davangere">
+<option value="Dehradun">
+<option value="Delhi">
+<option value="Dewas">
+<option value="Dhanbad">
+<option value="Dharmavaram">
+<option value="Dindigul">
+<option value="Durg">
+
+<!-- E -->
+<option value="Eluru">
+<option value="Erode">
+
+<!-- F -->
+<option value="Faridabad">
+<option value="Farrukhabad">
+<option value="Fatehpur">
+<option value="Firozabad">
+
+<!-- G -->
+<option value="Gandhinagar">
+<option value="Gangtok">
+<option value="Gaya">
+<option value="Ghaziabad">
+<option value="Gopalpur">
+<option value="Gorakhpur">
+<option value="Gulbarga">
+<option value="Guntur">
+<option value="Guwahati">
+<option value="Gwalior">
+
+<!-- H -->
+<option value="Haldia">
+<option value="Haridwar">
+<option value="Hassan">
+<option value="Hazaribagh">
+<option value="Hindupur">
+<option value="Hisar">
+<option value="Hosur">
+<option value="Hubballi">
+<option value="Hyderabad">
+
+<!-- I -->
+<option value="Ichalkaranji">
+<option value="Imphal">
+<option value="Indore">
+<option value="Itanagar">
+
+<!-- J -->
+<option value="Jabalpur">
+<option value="Jaipur">
+<option value="Jalandhar">
+<option value="Jalgaon">
+<option value="Jammu">
+<option value="Jamnagar">
+<option value="Jamshedpur">
+<option value="Jhansi">
+<option value="Jodhpur">
+<option value="Junagadh">
+
+<!-- K -->
+<option value="Kadapa">
+<option value="Kakinada">
+<option value="Kalaburagi">
+<option value="Kalyan">
+<option value="Kanchipuram">
+<option value="Kannur">
+<option value="Kanpur">
+<option value="Karaikudi">
+<option value="Karimnagar">
+<option value="Karnal">
+<option value="Kharagpur">
+<option value="Kochi">
+<option value="Kolhapur">
+<option value="Kolkata">
+<option value="Kollam">
+<option value="Kota">
+<option value="Kozhikode">
+<option value="Kurnool">
+
+<!-- L -->
+<option value="Latur">
+<option value="Lucknow">
+<option value="Ludhiana">
+
+<!-- M -->
+<option value="Machilipatnam">
+<option value="Madurai">
+<option value="Mahbubnagar">
+<option value="Malegaon">
+<option value="Mangalore">
+<option value="Mathura">
+<option value="Meerut">
+<option value="Moradabad">
+<option value="Motihari">
+<option value="Mumbai">
+<option value="Mysore">
+
+<!-- N -->
+<option value="Nagercoil">
+<option value="Nagpur">
+<option value="Nanded">
+<option value="Nandyal">
+<option value="Nashik">
+<option value="Nellore">
+<option value="Noida">
+
+<!-- O -->
+<option value="Ongole">
+<option value="Ooty">
+
+<!-- P -->
+<option value="Palakkad">
+<option value="Panaji">
+<option value="Panipat">
+<option value="Patiala">
+<option value="Patna">
+<option value="Pondicherry">
+<option value="Porbandar">
+<option value="Pune">
+<option value="Puri">
+
+<!-- R -->
+<option value="Raichur">
+<option value="Raipur">
+<option value="Rajahmundry">
+<option value="Rajkot">
+<option value="Ramagundam">
+<option value="Rampur">
+<option value="Ranchi">
+<option value="Ratlam">
+<option value="Rewa">
+<option value="Rohtak">
+<option value="Rourkela">
+
+<!-- S -->
+<option value="Sagar">
+<option value="Salem">
+<option value="Sambalpur">
+<option value="Sangli">
+<option value="Satara">
+<option value="Secunderabad">
+<option value="Shillong">
+<option value="Shimla">
+<option value="Shivamogga">
+<option value="Sikar">
+<option value="Silchar">
+<option value="Siliguri">
+<option value="Solapur">
+<option value="Sonipat">
+<option value="Srinagar">
+<option value="Surat">
+
+<!-- T -->
+<option value="Tadepalligudem">
+<option value="Thane">
+<option value="Thanjavur">
+<option value="Thoothukudi">
+<option value="Thrissur">
+<option value="Tiruchirappalli">
+<option value="Tirunelveli">
+<option value="Tirupati">
+<option value="Trichy">
+<option value="Trivandrum">
+
+<!-- U -->
+<option value="Udaipur">
+<option value="Udupi">
+<option value="Ujjain">
+<option value="Ulhasnagar">
+<option value="Unnao">
+
+<!-- V -->
+<option value="Vadodara">
+<option value="Valsad">
+<option value="Vapi">
+<option value="Varanasi">
+<option value="Vellore">
+<option value="Vijayawada">
+<option value="Villupuram">
+<option value="Virudhunagar">
+<option value="Visakhapatnam">
+
+<!-- W -->
+<option value="Warangal">
+
+<!-- Y -->
+<option value="Yamunanagar">
+<option value="Yavatmal">
+
+            <!-- A -->
+            <option value="Ahmedabad">
+            <option value="Amritsar">
+
+        </datalist>
+
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="toggle">
+        <label>
+            <input type="checkbox" id="unitToggle" onchange="getWeather()">
+            Show °F
+        </label>
+    </div>
+
+    <div id="loading" class="loading">Loading...</div>
+
+    <div id="current" class="current-card"></div>
+
+    <h2 id="hourly-title"></h2>
+    <div id="hourly" class="hourly"></div>
+
+    <h2 id="forecast-title"></h2>
+    <div id="forecast" class="forecast"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
